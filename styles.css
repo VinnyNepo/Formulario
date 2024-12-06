@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#cadastroForm{
+    margin-left: 5%;
+}
+#form-container{
+    border: 2px solid rgb(59, 243, 23);
+    border-radius: 10%;
+
+}
+#form-container p{
+    display: flex;
+    justify-content: center;
+}
+#form-container h2{
+    display: flex;
+    justify-content: center;
+}
+#form-container, #tabela-container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 7%;
+}
+#tabela-container h2{
+    display: flex;
+    justify-content: center;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 30%;
+    margin-left: 65%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5%;
+}
+
+button:hover {
+    background-color: #033005;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
