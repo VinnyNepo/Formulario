@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
 }
-#form-container, #tabela-container {
+#form-container {
     max-width: 400px;
     margin: auto;
     margin-top: 7%;
@@ -66,5 +66,13 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+#tabela-container {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 7%;
+}
+#voltarbnt{
+    width: 7%;
 }
 
