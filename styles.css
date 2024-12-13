@@ -1,12 +1,12 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0056b3;
+    background-color: #bebcbc;
 }
-#cadastroForm{
-    margin-left: 5%;
-}
+
 #form-container{
-    border: 2px solid rgb(59, 243, 23);
+    border: 2px solid #0056b3;
     border-radius: 10%;
 
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
 }
-#form-container {
+#form-container, #tabela-container {
     max-width: 400px;
     margin: auto;
     margin-top: 7%;
@@ -33,17 +33,17 @@ label {
     font-weight: bold;
 }
 
-input, textarea, button {
+#cadastroForm input, textarea, button {
     width: 90%;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
 }
 
-button {
+#cadastroForm button {
     width: 30%;
     margin-left: 65%;
-    background-color: #4CAF50;
+    background-color:#0056b3;
     color: white;
     border: none;
     cursor: pointer;
@@ -51,28 +51,158 @@ button {
     border-radius: 5%;
 }
 
-button:hover {
+#cadastroForm button:hover {
     background-color: #033005;
 }
-table {
+
+main{
+    width: 80vw;
+    margin:auto;
+    text-align: center;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+form{
+    margin-bottom:10%;
+    padding:0;
+    background-color: rgba(255,255,255, 0.25);
+    text-align: center;
+}
+input{
+    padding:10px;
+}
+#Enviar{
+    padding:10px;
+    width: 10%;
+
+}
+#Enviar:hover{
+    color: #0056b3;
+
+}
+table{
     width: 100%;
     border-collapse: collapse;
 }
-
-th, td {
+td{
+    border-bottom:1px solid teal;
+    padding:10px;
     text-align: left;
-    padding: 8px;
+}
+.loginl{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    margin-left: 28vw;
+    margin-top: 12vh;
+
 }
 
-th {
-    background-color: #f2f2f2;
+.log2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
 }
-#tabela-container {
-    max-width: 100%;
-    margin: auto;
-    margin-top: 7%;
+
+.input-group {
+    margin-bottom: 15px;
 }
-#voltarbnt{
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #00409d;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.forgot-password a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+.corpo{
+    width: 100%;
+}
+label{
+    text-align:justify;
+}
+
+header img{
+    position:relative;
     width: 7%;
+    margin-top: -20%;
+    margin-right: 50%;
+    border-radius: 50%;
 }
-
+#form-container img{
+    position:relative;
+    width: 22%;
+    margin-top: -25%;
+    margin-right: 70%;
+    border-radius: 50%;
+}
+.print{
+    width: 10%;
+}
+#buttonesq{
+    width:10%;
+    border-radius: 5px;
+    background-color: #00409d;
+    color: #f0f0f0;
+}
+.shel{
+    width: 900px;
+    position: relative;
+    margin-left: 150px;
+}
